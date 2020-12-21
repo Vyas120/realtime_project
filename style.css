@@ -1,0 +1,55 @@
+body{
+    float:none;
+  }
+  .heading
+  {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    background-color: tomato;
+  }
+  .heading_div
+  {
+    float: none ; 
+    background: white ; 
+    padding: 10px; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+
+.object_name{
+  font-size: 18px;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+
+#footer{
+  font-size: 15px;
+  position: fixed;
+  background-color: tomato;
+  color: white;
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+
+canvas{
+  animation-name: col;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  border: 5px solid white;
+  border-radius: 20px;
+  margin-top: 150px;
+}
+
+@keyframes col{
+  from{box-shadow: 1px 1px 40px blue;}
+  to{box-shadow: 1px 1px 40px yellow;}
+}
+  
